@@ -1,8 +1,10 @@
 body {
-  background-color: blanchedalmond;
+  background-color: rgb(192, 188, 188, 0.2);
+  color: rgb(43, 41, 41);
 }
 form {
   display: block;
+  max-width: 600px;
   margin: 10px auto;
   padding: 10px;
   text-align: center;
@@ -18,11 +20,12 @@ input {
   vertical-align: middle;
 }
 button {
-  border: 1px solid;
+  border: 1px solid rgb(43, 41, 41);
   border-radius: 5px;
   height: 40px;
   text-align: center;
   vertical-align: middle;
+  color: rgb(43, 41, 41);
 }
 button:hover {
   background: gray;
@@ -31,8 +34,7 @@ button:hover {
 .container {
   display: block;
   border-radius: 10px;
-  max-width: 1000px;
-  max-width: 70%;
+  max-width: 600px;
   margin: 10px auto;
   padding: 20px;
   background-color: rgb(128, 128, 128, 0.2);
@@ -61,6 +63,15 @@ h4 {
   font-size: 50px;
   padding: 10px;
   margin: 0;
+}
+.celsius,
+.fahrenheit,
+.slash {
+  position: relative;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  top: -13px;
 }
 
 ul,
